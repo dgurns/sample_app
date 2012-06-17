@@ -15,6 +15,8 @@ group :test do
   gem 'rspec-rails', '2.10.0'
   gem 'annotate', '~> 2.4.1.beta'
 	gem 'factory_girl_rails', '1.4.0'
+	gem 'cucumber-rails', '1.2.1', require: false
+	gem 'database_cleaner', '0.7.0'
 end
 
 # Gems used only for assets and not required
